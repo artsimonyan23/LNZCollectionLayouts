@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '8.0'
     s.name = "LNZCollectionLayouts"
  	s.summary      = "A swift collection of UICollectionViewLayout subclasses."
-	s.swift_version = '4.2'
+	s.swift_versions = ['5.1', '5.2', '5.3']
 
   	s.description  = <<-DESC
                    LNZCollectionLayouts is a collection of UICollectionViewLayout subclasses ready to be used to make your collection views custom and more interesting from UX point of view.
